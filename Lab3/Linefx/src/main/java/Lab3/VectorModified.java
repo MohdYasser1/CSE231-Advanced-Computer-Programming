@@ -2,7 +2,7 @@
 package Lab3;
 
 import java.util.*;
-//Create a class called VectorModified
+//Create a class called vecctor
 public class VectorModified {
     //This class has 2 private data field (x,y)
     private double x;
@@ -49,7 +49,7 @@ public class VectorModified {
         System.out.println(this.magnitude() + "[" + this.angle() + "]");
     }
 
-    //A static method that adds the 2 passed
+    //A method that adds the current vector and the passed vector
     static VectorModified add(VectorModified v, VectorModified w){
         VectorModified temp = new VectorModified();
         temp.x = v.x + w.x;
@@ -57,21 +57,17 @@ public class VectorModified {
         return temp; 
     }
 
-    //A static method that subtracts the 2 passed
+    //A method that subtracts the current vector and the passed vector
     static VectorModified sub(VectorModified v, VectorModified w){
         VectorModified temp = new VectorModified();
         temp.x = v.x - w.x;
         temp.y = v.y - w.y;
         return temp; 
     }
-    //A method that sets the object's data based on the information the user entered
     void read(){
-        //Create a Scanner object to input from command line
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the value of x: ");
-        //Takes the double entered and sets X
         this.setX(input.nextDouble());
-        //Takes the double entered and sets Y
         System.out.print("Enter the value of y: ");
         this.setY(input.nextDouble());
     }
