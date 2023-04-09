@@ -3,7 +3,7 @@ package Lab4;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-//Create a super class called books
+//Create a super class called Books
 class Books{
     //This super class has a counter to store the id
     private static int c = 1;
