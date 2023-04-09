@@ -6,6 +6,26 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BookstoreModified",
+            "request": "launch",
+            "mainClass": "Lab4.BookstoreModified"
+        },
+        {
+            "type": "java",
+            "name": "BookstoreModified",
+            "request": "launch",
+            "mainClass": "Lab3/Lab4.BookstoreModified",
+            "projectName": "CSE231 Advanced Computer Programming_60aa4b3c"
+        },
+        {
+            "type": "java",
+            "name": "AudioBooks",
+            "request": "launch",
+            "mainClass": "Lab3/Lab4.AudioBooks",
+            "projectName": "CSE231 Advanced Computer Programming_60aa4b3c"
+        },
+        {
+            "type": "java",
             "name": "MyStringBuffer",
             "request": "launch",
             "mainClass": "Lab3/Lab3.MyStringBuffer",
